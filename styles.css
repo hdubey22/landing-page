@@ -1,0 +1,82 @@
+body {
+    background-image: img src="C:\Users\HP\Downloads\baker.jpeg" width="500" height="500";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Cursive;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: 0;
+    padding: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: rgb(227, 223, 121);
+    text-decoration: none;
+}
+
+.hero {
+    
+    color: rgb(241, 238, 236);
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .btn {
+    background-color: #9b874f;
+    color: rgb(250, 247, 243);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.about, .products, .footer {
+    color: rgb(241, 235, 232);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 30%;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #9b874f;
+    color: rgb(238, 183, 112);
+    padding: 20px 0; 
+    width: 800px;  
+    height: 200px;
+}
